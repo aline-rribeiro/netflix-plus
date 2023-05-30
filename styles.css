@@ -1,4 +1,4 @@
-:root { /*variaveis css*/
+:root { 
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -29,9 +29,9 @@ body {
 }
 
 .container {
-    height: 100vh; /*altura da img*/
+    height: 100vh;
     display: grid;
-    grid-template-columns: 50% 50%; /*divisão da tela*/
+    grid-template-columns: 50% 50%; 
 }
 
 .container__botao {
@@ -40,7 +40,7 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
-    text-decoration: none; /* tira a linha inferior da frase criado pelo link*/
+    text-decoration: none; 
     margin-bottom: 1em;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .dispositivos__listas {
-    display: flex;    /* Ajuda a colocar os itens da lista um do lado do outro em uma linha */
+    display: flex;    
     justify-content: center;
     list-style-type: none;
     margin: 5em 0;
@@ -155,15 +155,15 @@ body {
     color: red;
 }
 
-.container__botao:hover {           /* PSEUDOCLASSE EM CSS */
+.container__botao:hover {           
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo)
 
 }
 
-@media screen and (max-width: 768px) {   /*resposivo do site*/
+@media screen and (max-width: 768px) {   
     .container {
-        display:  block;  /*vai ficar um bloco em cima do outro*/
+        display:  block;  
         background-image: none;
     }
 
